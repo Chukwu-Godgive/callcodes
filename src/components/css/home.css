@@ -1,0 +1,96 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main {
+  padding: 0 0.5rem;
+}
+
+.search {
+  padding-top: 100px;
+}
+
+.search input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 8px;
+  border: 3px solid rgb(255, 166, 0);
+  height: 55px;
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 0 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.video {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  background-color: rgb(1, 4, 11);
+}
+
+.display-search {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.788);
+  padding: 5px 20px;
+  font-size: 35px;
+  justify-content: space-between;
+  text-align: center;
+  margin: 5rem auto 0;
+  border: 2px solid rgb(255, 166, 0);
+  border-radius: 5px;
+}
+
+.display-search img {
+  width: 90px;
+}
+
+.year {
+  padding: 20px 0 10px;
+  color: white;
+}
+
+.year a {
+  text-decoration: none;
+  color: rgb(255, 166, 0);
+}
+
+.nav {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.nav h1 {
+  margin: 0 auto;
+  background-color: rgba(255, 166, 0, 0.452);
+}
+
+.guide {
+  color: white;
+  padding-top: 100px;
+  text-align: left;
+}
+
+.guide li {
+  color: rgb(255, 166, 0);
+}
