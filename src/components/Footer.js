@@ -8,7 +8,8 @@ function Footer() {
   return (
     <div className="year">
       <p>
-        All right &copy; {year} powered by <a href="v">3MTT</a>
+        All right reserved &copy; {year} powered by{" "}
+        <a href="https://3mtt.nitda.gov.ng/" target="_bank">3MTT</a>
       </p>
     </div>
   );
